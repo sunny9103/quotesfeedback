@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(aliceblue, rgb(106, 106, 124),beige);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.rating1 img{
+    width: 40px;
+
+}
+.rating2 img{
+    width: 40px;
+
+}
+.rating3 img{
+    width: 40px;
+
+}
+.heading{
+    font-style: italic;
+    padding:15px;
+    margin: 5px;
+}
+.container{
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    padding: 40px;
+    font-size: 20px;
+    text-align: center;
+    width: 85%;;
+    max-width: 400px;
+}
+.ratings-container{
+    display: flex;
+    padding: 20px;
+}
+.rating1{
+    cursor: pointer;
+    padding: 10px;
+    margin:10px 5px;
+}
+.rating2{
+    cursor: pointer;
+    padding: 10px;
+    margin:10px 5px;
+}
+.rating3{
+    cursor: pointer;
+    padding: 10px;
+    margin:10px 5px;
+}
+.rating1:hover{
+    background-color:darkseagreen ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.3);
+    transition: all ease 300ms;
+}
+.rating2:hover{
+    background-color: rgb(203, 203, 152);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.3);
+    transition: all ease 300ms;
+}
+.rating3:hover{
+    background-color: rgb(175, 111, 71);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.3);
+    transition: all ease 300ms;
+}
+.btn1{
+    background-color: rgb(48, 48, 80);
+    color: aliceblue;
+    margin:10px;
+    border: 0;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color:rgb(141, 141, 174); 
+    box-shadow:rgba(0,0,0, 0.3);
+    transition: all ease 300ms;
+}
+.btn1:active{
+    transform: scale(0.96);
+}
